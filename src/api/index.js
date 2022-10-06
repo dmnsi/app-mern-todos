@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "https://api-mern-todos.herokuapp.com/";
+const url = "https://api-mern-todos.herokuapp.com/todos";
 
 export const readTodos = () => axios.get(url);
 export const createTodos = (newTodo) => axios.post(url, newTodo);
